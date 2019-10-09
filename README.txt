@@ -1,1 +1,3 @@
 Bash script that takes in a CSV file containing each student's first and last names as columns 1 and 2 respectively. For each student listed in the CSV file, it pulls their submission files from their subfolder (named "Firstname Lastname_*") and copies them to a specified location and renames them into the format "rownum_Lastname_Firstname_file#" with the row number from the CSV file (0001, 0002, etc.).
+
+You must have csvkit (https://csvkit.readthedocs.io/en/latest/) to use!
